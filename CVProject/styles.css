@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    color: #555;
+}
+body{
+    background-image: url("Imagens/background9.jpg");
+    background-position: center;
+    background-blend-mode: multiply; 
+    background-size: cover;
+    padding-bottom: 160px; 
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.header-pic{
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.title{
+    text-align: center;
+    color: #888;
+}
+.sub-title{
+    text-align: center;
+    color: #69d188;
+}
+.personal-contacts{
+    text-align: center;
+    padding-bottom: 1em;
+    margin: 1em;
+}
+.icon{
+    text-align: center;
+    display: inline-block;
+    padding-right: .5em;
+    
+}
+.border{
+    border-bottom: 3px solid #69d188;
+}
+.subject-title{
+    display: block;
+    color: #888;
+    margin-left: 75px;
+    margin-right: 75px;
+    border-bottom: 2px solid #69d188 ;
+}
+.passion-row{
+    display: flex;
+}
+.text-edit{
+    align-self: center;
+}
+.subject-description{
+    margin-left: 75px;
+}
+.subj-icon{
+    padding-right: .5em;
+}
+.exp-title{
+    text-align: center;
+}
+.content-section{
+    margin-top: 0;
+    margin-left: 5em;
+    margin-bottom: 1em;
+    margin-right: 5em;
+}
+.client-title{
+    color: #69d188;
+}
+.footer{
+    margin-top: 3em;
+    margin-left: 5em;
+    margin-bottom: 2em;
+    margin-right: 5em;
+    border-bottom: 2px solid #69d188 ;
+}
+.color{
+    color: #69d188;
+}
